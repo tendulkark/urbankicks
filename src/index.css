@@ -23,6 +23,18 @@
   }
 }
 
+/* 
+Screen Size
+sm: min-width(640px)
+md: min-width(768px)
+lg: min-width(1024px)
+xl: min-width(1280px)
+  Custom Screeen Size - [
+  wide: min-width(1440px)
+  ]
+2xl: min-width(1536px) 
+*/
+
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
