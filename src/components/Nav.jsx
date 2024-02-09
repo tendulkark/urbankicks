@@ -22,10 +22,10 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className="lg:hidden w-8">
-          <img src={hamburger} alt="hamburger" />
+        <div className="hidden max-lg:block">
+          <img src={hamburger} alt="hamburger" width={25} height={25} />
         </div>
-        <div className="max-lg:hidden">
+        <div className="hidden lg:block">
           <p className="font-bold tracking-tight">Sign In / Sign Up</p>
         </div>
       </nav>
