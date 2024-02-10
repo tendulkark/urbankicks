@@ -13,7 +13,7 @@ const PopularProducts = () => {
           selections. Discover a world of comfort, design, and value
         </p>
 
-        <div className="flex flex-col gap-16 mt-16 items-center sm:flex-row sm:flex-wrap">
+        <div className="flex flex-col gap-16 mt-16 items-center sm:flex-row sm:flex-wrap flex-1">
           {products.map((product) => (
             <div className="" key={product.name}>
               <img src={product.imgURL} alt="product shoe collections" />
