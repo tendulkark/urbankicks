@@ -30,7 +30,7 @@ const Hero = () => {
         </p>
         <Button label="Shop Now" iconURL={arrowRight} className="pl-4" />
 
-        <div className="flex space-x-10 justify-start items-start flex-wrap w-full mt-20">
+        <div className="flex space-x-10 justify-start items-start flex-wrap w-full mt-20 ">
           {statistics.map((stat) => (
             <div key={stat.label}>
               <p className="font-bold font-palanquin text-4xl">{stat.value}</p>
@@ -52,6 +52,7 @@ const Hero = () => {
         <div className="flex absolute -bottom-[5%] gap-4 sm:gap-6 sm:left-[10%] max-sm:px-6">
           {shoes.map((shoe) => (
             <ShoeCard
+              key={shoe.bigShoe}
               imgURL={shoe}
               bigShoeImg={bigShoeImg}
               changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
