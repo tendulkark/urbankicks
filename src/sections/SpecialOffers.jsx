@@ -6,10 +6,16 @@ const SpecialOffers = () => {
   return (
     <section>
       <div className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
-        <div className="">
-          <img src={offer} alt="offer" className=" object-contain" />
+        <div className="flex-1">
+          <img
+            src={offer}
+            alt="offer"
+            width={773}
+            height={687}
+            className=" w-full  object-contain"
+          />
         </div>
-        <div className="">
+        <div className="flex-1">
           <h1 className="text-4xl font-bold font-palanquin">
             <span className="text-coral-red ">Special</span> Offer
           </h1>
