@@ -14,7 +14,7 @@ const PopularProducts = () => {
           selections. Discover a world of comfort, design, and value
         </p>
 
-        <div className="flex flex-col w-full gap-16 mt-16 items-center sm:flex-row sm:flex-wrap flex-1">
+        <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14">
           {products.map((product) => (
             <div className="" key={product.name}>
               <img src={product.imgURL} alt="product shoe collections" />

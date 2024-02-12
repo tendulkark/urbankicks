@@ -17,7 +17,10 @@ const CustomerReviews = () => {
       <div>
         <div className="flex flex-col justify-center items-center mt-16 gap-32 max-lg:gap-16 lg:flex-row">
           {reviews.map((review) => (
-            <div className="flex justify-center items-center flex-col text-center w-2/6 max-lg:w-2/3">
+            <div
+              key={review.customerName}
+              className="flex justify-center items-center flex-col text-center lg:w-2/6 md:w-2/3"
+            >
               <img
                 src={review.imgURL}
                 alt={review.customerName}
