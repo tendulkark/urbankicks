@@ -6,6 +6,7 @@ const Button = ({
   backgroundColor,
   textColor,
   borderColor,
+  fullWidth,
 }) => {
   return (
     <button
@@ -13,7 +14,7 @@ const Button = ({
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-coral-red text-white border-coral-red"
-      }  py-4 px-8 rounded-full  text-lg leading-none`}
+      }  py-4 px-8 rounded-full ${fullWidth && "w-full"}  text-lg leading-none`}
     >
       {label} {iconURL ? <img src={iconURL} alt="arrow right" /> : ""}
     </button>
