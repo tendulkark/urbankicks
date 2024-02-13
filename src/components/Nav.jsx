@@ -9,7 +9,7 @@ const Nav = () => {
     setOpenModal(!openModal);
   };
   return (
-    <header className="padding-x py-8 absolute w-full z-10">
+    <header className="padding-x  absolute w-full z-10">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="logo" width={130} height={29} />

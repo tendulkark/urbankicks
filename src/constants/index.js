@@ -53,23 +53,27 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "₹5,479",
+    name: "Nike Mens Air Zoom Pegasus 40 PrmRunning Shoes",
+    price: "₹8,564",
+    rating: "4.1",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "₹9,569",
+    name: "K-Swiss Men's ST329 CMF Sneaker",
+    price: "₹15,111",
+    rating: "4.6",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "₹21,695",
+    name: "Nike Mens Legend Essential 3 Running Shoes Running",
+    price: "₹3,347",
+    rating: "3.2",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "₹50,328",
+    name: "new balance Men 247 Brown Sneakers (MS247LC3)",
+    price: "₹6,999",
+    rating: "4",
   },
 ];
 
@@ -134,8 +138,11 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      {
+        name: "customer@urbankicks.com",
+        link: "mailto:customer@urbankicks.com",
+      },
+      { name: "+919876543210", link: "tel:+919876543210" },
     ],
   },
 ];

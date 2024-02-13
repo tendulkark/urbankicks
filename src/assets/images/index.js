@@ -5,8 +5,9 @@ import bigShoe3 from "./big-shoe3.png";
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
 
-import footerLogo from "./footer-logo.svg";
-import headerLogo from "./header-logo.svg";
+import footerLogo from "./footer-logo.png";
+import headerLogo from "./header.gif";
+import topView from "./top-view.png";
 
 import offer from "./offer.svg";
 
@@ -39,4 +40,5 @@ export {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
+  topView,
 };

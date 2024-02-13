@@ -25,7 +25,7 @@ const SuperQuality = () => {
           </div>
         </div>
 
-        <div>
+        <div className="max-md:mt-12">
           <img src={shoe8} alt="shoe8" width={1300} />
         </div>
       </div>
