@@ -20,7 +20,9 @@ const PopularProducts = () => {
               <img src={product.imgURL} alt="product shoe collections" />
               <div className="flex gap-6 mt-8">
                 <img src={star} alt="star" />
-                <p className="text-xl font-montserrat text-slate-gray">(4.5)</p>
+                <p className="text-xl font-montserrat text-slate-gray">
+                  ({product.rating})
+                </p>
               </div>
               <p className="font-semibold text-2xl font-palanquin leading-normal mt-2">
                 {product.name}

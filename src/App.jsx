@@ -1,4 +1,6 @@
+import { topView } from "./assets/images";
 import Nav from "./components/Nav";
+
 import {
   Hero,
   PopularProducts,
@@ -11,6 +13,9 @@ import {
 } from "./sections";
 
 const App = () => {
+  const toTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <main className="relative">
       <Nav />
@@ -38,6 +43,15 @@ const App = () => {
       <section className=" bg-black padding-x padding-t pb-8 text-white">
         <Footer />
       </section>
+
+      <img
+        src={topView}
+        alt="top-view"
+        width={100}
+        height={100}
+        className="fixed bottom-0 right-0 cursor-pointer"
+        onClick={() => toTop()}
+      />
     </main>
   );
 };
