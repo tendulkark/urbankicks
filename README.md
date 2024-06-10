@@ -3,7 +3,7 @@
 ### Description
 _**UrbanKicks**_ is a sleek and modern landing page designed to showcase the latest shoe collections from the UrbanKicks brand. Built using _**Vite+React**_ and styled with _**Tailwind CSS**_, this landing page combines the power of React's component-based architecture with the utility-first styling approach of Tailwind CSS to create a visually stunning and highly functional user experience.
 
-Live Demo: [UrbanKicks](https://urbankicks.vercel.app)
+Live Demo: [UrbanKicks](https://urban-kicks-tk.vercel.app)
 
 ### Build With
 - Vite+React
